@@ -1,1 +1,67 @@
 
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f4f7fb;
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px;
+}
+
+.container{
+width:100%;
+max-width:400px;
+}
+
+.logo{
+text-align:center;
+font-size:60px;
+margin-bottom:15px;
+}
+
+h1{
+text-align:center;
+color:#1565c0;
+margin-bottom:10px;
+}
+
+.subtitle{
+text-align:center;
+color:#666;
+margin-bottom:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:20px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.card h2{
+margin-bottom:15px;
+}
+
+.card p{
+color:#666;
+margin-bottom:25px;
+}
+
+button{
+width:100%;
+padding:15px;
+border:none;
+border-radius:12px;
+background:#1565c0;
+color:white;
+font-size:16px;
+cursor:pointer;
+}
