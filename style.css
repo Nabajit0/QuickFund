@@ -73,3 +73,22 @@ border:1px solid #ddd;
 border-radius:12px;
 font-size:16px;
 }
+.payment-option{
+    background:#fff;
+    border:1px solid #ddd;
+    border-radius:12px;
+    padding:15px;
+    margin-bottom:10px;
+    font-size:16px;
+}
+
+.payment-option small{
+    display:block;
+    color:#777;
+    margin-top:5px;
+}
+
+.active{
+    border:2px solid #1565c0;
+    background:#eef5ff;
+}
