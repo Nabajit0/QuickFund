@@ -21,7 +21,7 @@ window.location.href = upiLink;
 
 setTimeout(() => {
     window.location.href = "thankyou.html";
-}, 3000);
+}, 5000);
 
 }
 
