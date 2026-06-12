@@ -1,32 +1,62 @@
-<h2>Select Payment Method</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UPI Payment</title>
+<link rel="stylesheet" href="style.css">
+</head>
 
-<div class="payment-option active">
-    🚀 UPI
-    <small>Google Pay, PhonePe, Paytm, BHIM</small>
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <h2>Select Payment Method</h2>
+
+        <p><strong>Name:</strong> <span id="payName"></span></p>
+
+        <p><strong>Amount:</strong> ₹<span id="payAmount"></span></p>
+
+        <br>
+
+        <div class="payment-option active">
+            🚀 UPI
+            <small>Google Pay, PhonePe, Paytm, BHIM</small>
+        </div>
+
+        <div class="payment-option">
+            💳 Credit Card
+            <small>Visa, Mastercard, RuPay</small>
+        </div>
+
+        <div class="payment-option">
+            💳 Debit Card
+            <small>All major banks supported</small>
+        </div>
+
+        <div class="payment-option">
+            🏦 Net Banking
+            <small>50+ Banks</small>
+        </div>
+
+        <div class="payment-option">
+            👛 Wallet
+            <small>Paytm Wallet, Amazon Pay</small>
+        </div>
+
+        <br>
+
+        <button onclick="payNow()">
+            Continue with UPI
+        </button>
+
+    </div>
+
 </div>
 
-<div class="payment-option">
-    💳 Credit Card
-    <small>Visa, Mastercard, RuPay</small>
-</div>
+<script src="payment.js"></script>
 
-<div class="payment-option">
-    💳 Debit Card
-    <small>All major banks supported</small>
-</div>
-
-<div class="payment-option">
-    🏦 Net Banking
-    <small>50+ Banks</small>
-</div>
-
-<div class="payment-option">
-    👛 Wallet
-    <small>Paytm Wallet, Amazon Pay</small>
-</div>
-
-<br>
-
-<button onclick="payNow()">
-    Continue with UPI
-</button>
+</body>
+</html>
